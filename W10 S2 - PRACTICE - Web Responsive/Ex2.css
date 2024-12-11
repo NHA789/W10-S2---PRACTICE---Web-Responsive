@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: rgb(224, 224, 224);
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(132, 131, 131);
+    padding: 30px;
+    
+}
+
+
+
+.right {
+    display: flex;
+    gap: 30px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+#C2 {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #C2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    #C1 {
+        display: none;
+    }
+
+    .more img {
+        width: 30px;
+        height: 30px;
+    }
+}
